@@ -1,4 +1,4 @@
-**Your Goal**
+**Goal of the Case Study**
 The goal of this competition is to predict whether a mushroom is edible or poisonous based on its physical characteristics.
 
 1. The dataset for this competition (both train and test) was generated from a deep learning model trained on the UCI Mushroom dataset.
