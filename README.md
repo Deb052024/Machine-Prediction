@@ -7,6 +7,9 @@ To accomplish the above task following tasks have been performed
 2. **Dimensionality Reduction** Based on the analysis of data set, the unnecessary column , features have been dropped, here its **Unnamed**
 3. **Data PreProcessing** Handle any missing values, outliers, or inconsistencies in the dataset. Convert catergorical to numerical format through encoding. The data set does not contain any null values and Label Encoder has been used to convert categorical to numerical 
 4. **Feature Extraction** Three different techniques have been Performed to extract features that are related to price , they were coorrelation-Heat Map, SelectKBest Method, ExtraTree classifier. Scores have been allocated to the features and they were plotted also. The key features come up are
+
+   ![image](https://github.com/user-attachments/assets/ff375250-702c-478e-b792-ddec4d2c3998)
+
  
  a.  Based on High Degree of positive correlation – Key Features related to price are –Memory, RAM, Mobile Height
  b. Based on SelectKBest Method –Key Features are –  Model, Battery, Memory, Processor 
