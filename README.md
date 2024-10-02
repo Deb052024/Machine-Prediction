@@ -24,6 +24,7 @@ B. Features- Maximum cell phones with 126GB Memory, 4 GB RAM and 16MP Front came
 C. 16.76 inch height handset are having maximum presence in the distribution
 D. Qual Comm Snap Dragon Processors are mostly used in cell Phones
 E. 5000mH battery is mostly present across cell phones 
+![image](https://github.com/user-attachments/assets/4ca87b4f-b95e-4e4b-8f05-7ecf8b4e98cf)
 
 7. **Model Building**- Split the dataset into training and testing sets. and Price was kept as a part of Dependent variable
 
