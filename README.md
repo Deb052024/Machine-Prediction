@@ -1,12 +1,62 @@
 **Goal of the Case Study**
-The goal of this competition is to predict whether a mushroom is edible or poisonous based on its physical characteristics.
+The goal of this case study to design a machine Learning Model that can accurately predict price for mobile Phones based on its features.
 
-1. The dataset for this competition (both train and test) was generated from a deep learning model trained on the UCI Mushroom dataset.
+To accomplish the above task following tasks have been performed
 
-2. Feature distributions are close to, but not exactly the same, as the original.
+1. **Data Exploration** Loading and exploring the dataset to understand its structure, data types, and the range of values for each feature.it has got 540 rows and 12 columns / features as attributes for the data set
+2. **Dimensionality Reduction** Based on the analysis of data set, the unnecessary column , features have been dropped, here its **Unnamed**
+3. **Data PreProcessing** Handle any missing values, outliers, or inconsistencies in the dataset. Convert catergorical to numerical format through encoding. The data set does not contain any null values and Label Encoder has been used to convert categorical to numerical 
+4. **Feature Extraction** Three different techniques have been Performed to extract features that are related to price , they were coorrelation-Heat Map, SelectKBest Method, ExtraTree classifier. Scores have been allocated to the features and they were plotted also. The key features come up are
+ 
+ a.  Based on High Degree of positive correlation – Key Features related to price are –Memory, RAM, Mobile Height
+ b. Based on SelectKBest Method –Key Features are –  Model, Battery, Memory, Processor 
+ c. Based on ExtraTree Classifier Method –Key Features are – Model, Battery, Mobile Height ,Processor 
 
-3.  Feel free to use the original dataset as part of this competition, both to explore differences as well as to see whether incorporating the original in training improves model performance.
+5. **EDA and Visualtion** - Features with occurances above mean were plotted and less occurance features were seggregated as  **Lesser**
 
+     **Some Interpretations from EDA were**
    
+A. SAMSUNG Galaxy A145G, REDMI Note 12Pro 5G, VIVO Y16, realmeC55 have got maximum occurrences
+B. Features- Maximum cell phones with 126GB Memory, 4 GB RAM and 16MP Front camera
+C. 16.76 inch height handset are having maximum presence in the distribution
+D. Qual Comm Snap Dragon Processors are mostly used in cell Phones
+E. 5000mH battery is mostly present across cell phones 
+
+7. **Model Building**- Split the dataset into training and testing sets. and Price was kept as a part of Dependent variable
+
+    Different Machine Learning Regressor method was used to predict the price and different KPIS were used
+    They were Linear , Logistic, Support Vector , Support Vector,  Decison Tree Regressor
+   Apart from them couple of ensemble techniques were also applied
+   They were Random Forest, XGBoost, AdaBoost
+
+8. **Model Evaluation** - Each of the models were evaluated based on the following parameters
+    a. Train and Test Accuracy Score
+    b. R*2 , Mean Absolute Error and Mean Square Error
+
+9. **Cross Validation**   - for each of the Regressor techniques , cross validations have been used and they were plottedfor R*2 . Support Vector R*2 has been least and more spread of R*2 score for the ensemble techniques
+    
+10. **Recommendations** - Based on the Plotting and Machine Learnig KPI are
+
+A. Top three brands with highest selling prices are Apple iPhone 14 Plus, Samsung Galaxy S23 5G and Google Pixel 7 
+
+
+B.With 128GB Memory APPLE are the costliest with bigger heights compared to 256GB Memory of Samsung Cell Phones, Brand being the differentiator 
+
+C. 12MegaPixel Front camera are costliest for Apple and Samsung but most cameras present are of 10 or 8 Mega Pixel, 
+
+D.8GM RAM is the most sought after for Samsung - how ever the current distribution is having most cell phones with 4GB RAM 
+
+E. Ensemble Techniques perform better in Model Accuracy than normal learning models 
+
+F. XGBoost is having highest accuracy but bit overfit how ever AdaBoost is neither overfit nor under fit in price predictions
+
+G. R*2 square with least MAE(Mean Absolute Error ) is present for XGBoost 
+
+**THANK YOU**
+
+
+
+
+
 
 
