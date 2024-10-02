@@ -35,6 +35,9 @@ E. 5000mH battery is mostly present across cell phones
 
 9. **Cross Validation**   - for each of the Regressor techniques , cross validations have been used and they were plottedfor R*2 . Support Vector R*2 has been least and more spread of R*2 score for the ensemble techniques
     
+![image](https://github.com/user-attachments/assets/3d0b190a-396b-4e41-9bb6-3519eb35825a)
+
+    
 10. **Recommendations** - Based on the Plotting and Machine Learnig KPI are
 
 A. Top three brands with highest selling prices are Apple iPhone 14 Plus, Samsung Galaxy S23 5G and Google Pixel 7 
