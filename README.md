@@ -63,10 +63,10 @@ G. R*2 square with least MAE(Mean Absolute Error ) is present for XGBoost
 
 
 ![image](https://github.com/user-attachments/assets/18226cd4-a25e-49f1-b677-1ab7318ac677)
-**Price Histogram  Plot**
-Interpretation-
-1.Reflects maximum cell phones with 10k to 40k Range
-2. No cell Phone on 70k Price bracket, there is a scope for brands to pitch in at the price point 
+**Histogram Plot For Price**
+Inferences 
+1. Above plot clearly depicts maximum cell phones present in market are in the range of 10k to 40k.
+2. No cell phones at 70k Price range , opportunity for premimum players like Apple ,Samsung, Google, RealMe to bring products at the price Point
 
 
 **THANK YOU**
